@@ -64,8 +64,8 @@ export default function Header () {
                    <h2>{data.jobTitle}</h2>
                </div>
                <div className={styles.about}>
-                   <h2>about me</h2>
-                   <p>{data.about}</p>
+                   <h2>{(data.about !== undefined) ? data.about.title: ''}</h2>
+                   <p>{(data.about !== undefined) ? data.about.text: ''}</p>
                </div>
            </div>
        </div>      

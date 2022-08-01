@@ -3,7 +3,10 @@ const data = {
         firstname: 'amir ali',
         lastname: 'adel',
         jobTitle: 'fullstack web developer',
-        about: 'Motivated Junior Web Developer looking for a job in the field of full stack development, preferably in backend development. My goal is to gain fundamental tech expertise and valuable hands-on experience as a backend developer that contributes successfully to your company.',
+        about: {
+            title: 'about me',
+            text: 'Motivated Junior Web Developer looking for a job in the field of full stack development, preferably in backend development. My goal is to gain fundamental tech expertise and valuable hands-on experience as a backend developer that contributes successfully to your company.'
+        },
         phone: '+49 159 01 06 1608',
         address: 'Am Veringhof 25, 21107 Hamburg',
         email: 'adel.amirali@yahoo.com',
@@ -122,7 +125,10 @@ const data = {
         firstname: 'amir ali',
         lastname: 'adel',
         jobTitle: 'Fullstack-Webentwickler',
-        about: 'Motivierter Junior Web Developer auf der Suche nach einem Job im Bereich Full-Stack-Entwicklung, vorzugsweise in der Backend-Entwicklung. Mein Ziel ist es, als Backend-Entwickler grundlegendes technisches Know-how und wertvolle praktische Erfahrungen zu sammeln, die sich erfolgreich in Ihr Unternehmen einbringen.',
+        about: {
+            title: 'über mich',
+            text: 'Motivierter Junior Web Developer auf der Suche nach einem Job im Bereich Full-Stack-Entwicklung, vorzugsweise in der Backend-Entwicklung. Mein Ziel ist es, als Backend-Entwickler grundlegendes technisches Know-how und wertvolle praktische Erfahrungen zu sammeln, die sich erfolgreich in Ihr Unternehmen einbringen.'
+        },
         phone: '+49 159 01 06 1608',
         address: 'Am Veringhof 25, 21107 Hamburg',
         email: 'adel.amirali@yahoo.com',
