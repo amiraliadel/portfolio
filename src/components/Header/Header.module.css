@@ -1,0 +1,157 @@
+.header {
+    width: 100%;
+    height: 100%;
+    padding-top: 128px;
+    position: sticky;
+    top: -128px;
+    display: grid;
+    grid-template-columns: 384px auto;
+    grid-auto-flow: row;
+    justify-items: flex-start;
+    background-color:steelblue;
+}
+.header .contacts {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    color: aliceblue;
+    grid-auto-flow: row;
+}
+.header .contacts .fix {
+    width: 100%;
+    height: 128px;
+    position: sticky;
+    top: 128px;
+    background-color: #212121;
+}
+.header .contacts .phone, .address {
+    width: 100%;
+    height: 64px;
+    padding: 0px 20px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 10px;
+    justify-content: flex-start;
+    background-color: #212121;
+}
+.header .contacts div p {
+    font-size: 14px;
+    font-weight: 200;
+    align-self: center;
+}
+.header .contacts div .icons {
+    padding: 5px;
+    font-size: 30px;
+    color: #212121;
+    cursor: pointer;
+    border-radius: 50%;
+    align-self: center;
+    background-color: steelblue;
+}
+.header .head {
+    width: 100%;
+    height: 100%;
+    padding: 0px 128px 20px 128px;
+    display: grid;
+    grid-auto-flow: row;
+}
+.header .head .top {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-auto-flow: column;
+}
+.header .head .top .title {
+    font-family: 'Raleway', sans-serif;
+    height: auto;
+    padding: 0px 10px;
+    justify-self: flex-start;
+    display: grid;
+    text-transform: uppercase;
+}
+.header .head .top .title h1 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 2px;
+}
+.header .head .top .title h2 {
+    font-weight: 400;
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+.header .head .top .links {
+    justify-self: flex-end;
+    padding: 0px 10px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.header .head .top .links .social {
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 20px;
+    align-items: center;
+}
+.header .head .top .links .social .icons {
+    font-size: 36px;
+    color: #212121;
+    cursor: pointer;
+}
+.header .head .top .links .social .icons:hover {  
+    color:aliceblue
+}
+.header .head .top .links .lan {
+    display: grid;
+    align-content: center;
+    justify-content: flex-end;
+}
+.header .head .top .links .lan span {
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    color: #212121;
+    cursor: pointer;
+}
+.header .head .top .links .lan span:hover {
+    color: aliceblue;
+}
+.header .head .subtitle {
+    width: 100%;
+    height: 100%;
+    padding: 0px 10px;
+    align-self: flex-start;
+    text-transform: uppercase;
+    display: grid;
+}
+.header .head .subtitle h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+    align-self: center;
+}
+.header .head .about {
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    align-self: flex-start;
+    display: grid;
+    grid-auto-flow: row;
+}
+.header .head .about h2 {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.header .head .about p {
+    width: auto;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 16px;
+    text-align: justify;
+    text-transform: none;
+    letter-spacing: 0.5px;
+}

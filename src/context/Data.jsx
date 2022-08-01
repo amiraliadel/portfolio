@@ -8,12 +8,16 @@ function DataProvider ({children}) {
 
     useEffect(() => {
         (async () => {
-            setInfos(data);
+            setInfos(data.EN);
+            //console.log(data);
         })();
     }, []);
 
+    const handleLanguage = (lan) => {
+        lan === 'de' ? setInfos(data.EN) : setInfos(data.DE);
+    }
     return (
-        <DataCtx.Provider value={infos}>
+        <DataCtx.Provider value={{infos, handleLanguage}}>
             {children}
         </DataCtx.Provider>
     );

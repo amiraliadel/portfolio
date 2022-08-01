@@ -1,0 +1,122 @@
+.main {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    grid-template-columns: 384px auto;
+    background-color: #fff;
+  }
+  .main .container {
+    width: 100%;
+    height: 100%;
+    padding: 30px 128px;
+    display: grid;
+    grid-auto-flow: row;
+    grid-row-gap: 20px;
+    align-content: flex-start;
+  }
+  .main .container section {
+    display: grid;
+    grid-template-rows: 64px auto;
+  }
+  .main .container section .title {
+    display: grid;
+  }
+  .main .container section .title h2 {
+    align-self: center;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  .main .container section .content {
+    padding: 10px;
+    display: grid;
+    grid-auto-flow: row;
+    grid-row-gap: 10px;
+  }
+  .main .container section .content div {
+    display: grid;
+    grid-auto-flow: row;
+    grid-row-gap: 5px;
+  }
+  
+  .main .container section .content div .listTitle h2 {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+  .main .container section .content div .listSubtitle {
+    display: grid;
+    grid-auto-flow: column;
+  }
+  .main .container section .content div .listSubtitle h2 {
+    width: auto;
+    font-size: 14px;
+    font-weight: 700;
+    font-style: italic;
+    justify-self: flex-start;
+    text-transform: none;
+    background-color: #eee;
+  }
+  .main .container section .content div .listSubtitle h2 a {
+    color: #212121;
+  }
+  .main .container section .content div .listSubtitle h3 {
+    font-weight: 700;
+    font-style: italic;
+    justify-self: flex-end;
+  }
+  .main .container section .content div .list ul {
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 16px;
+    text-align: justify;
+    text-transform: none;
+    letter-spacing: 0.5px;
+    list-style-type: disc;
+    padding-left: 10px;
+  }
+  .main .sidebar {
+    width: 384px;
+    height: 100%;
+    display: grid;
+    padding: 30px 20px;
+    color: aliceblue;
+    background-color: #212121;
+  }
+  
+  .main .sidebar .skills {
+    width: 100%;
+    height: auto;
+    align-self: flex-start;
+    position: sticky;
+    top: 256px;
+    display: grid;
+    grid-template-rows: 64px auto;
+  }
+  .main .sidebar .skills .title {
+    display: grid;
+  }
+  .main .sidebar .skills .title h2 {
+    align-self: center;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  .main .sidebar .skills .lists {
+    padding: 10px;
+    display: grid;
+    grid-auto-flow: row;
+    grid-row-gap: 20px;
+    align-content: flex-start;
+  }
+  .main .sidebar .skills .lists ul {
+    font-size: 14px;
+    font-weight: 200;
+  }
+  .main .sidebar .skills .lists ul li {
+    font-size: 12px;
+    padding-left: 10px;
+    padding-top: 5px;
+  }
